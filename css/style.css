@@ -1,5 +1,5 @@
-/* import from fonts css file */
 @import url(fonts.css);
+@import url(partials/_variables.css);
 
 /* start navigation */
 
@@ -16,7 +16,7 @@
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
-    color: black;
+    color: var(--title-color);
 }
 
 /* end navigation */
