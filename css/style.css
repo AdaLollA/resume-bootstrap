@@ -3,15 +3,15 @@
 
 /* start navigation */
 
-.header-area .main-menu .navbar .navbar-brand{
+.header-area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
 
-.header-area .main-menu .navbar{
+.header-area .main-menu .navbar {
     padding: 1rem 20rem;
 }
 
-.header-area .main-menu .nav-item .nav-link{
+.header-area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
@@ -25,7 +25,7 @@
     background-clip: text;
 }
 
-.header-area .main-menu .nav-item a:hover{
+.header-area .main-menu .nav-item a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -33,3 +33,15 @@
 }
 
 /* end navigation */
+
+/* start banner */
+
+.site-main .site-banner {
+    background: url(../img/banner-background.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner {
+    
+}
+
+/* end banner */
