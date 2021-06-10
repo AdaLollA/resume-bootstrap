@@ -219,4 +219,12 @@
     font: normal 700 25px/12px var(--roboto);
 }
 
+.site-main .project-area .grid .our-project img {
+    transition: all .4s ease;
+}
+
+.site-main .project-area .grid .our-project img:hover {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
 /* end projects */
