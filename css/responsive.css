@@ -1,38 +1,3 @@
-/* phone */
-@media only screen and (max-width: 480px) {
-    .header-area .main-menu .navbar,
-    .header-area .main-menu .navbar-brand,
-    .site-main .service-area,
-    .site-main .brand-area,
-    .site-main .about-area
-     {
-        padding: 2% !important;
-        margin: 0 !important;
-    }
-
-    .site-main .site-banner .site-title h1 {
-        font-size: 41px;
-    }
-
-    .site-main .brand-area .experience-area .years-area {
-        padding-left: 1%;
-        width: 49%;
-    }
-
-    .site-main .brand-area .experience-area .bg-panel {
-        margin-left: 30%;
-        width: 80%;
-    }
-
-    .site-main .brand-area .experience-area .call-area {
-        padding-left: 3%;
-    }
-
-    .site-main .project-area .button-group button {
-        font: normal 500 18px/40px var(--roboto);
-    }
-}
-
 /* tablet */
 @media only screen and (max-width: 768px){
     .site-main .about-area .about-title h2 > span{
@@ -67,23 +32,48 @@
     }
 }
 
-
-
-/* desktop */ 
-@media only screen and (max-width: 1024px){
-    .header-area .main-menu .navbar{
-        padding: 1rem;
-    }
-
-    .container{
-        max-width: 90%;
-    }
-
+/* phone */
+@media only screen and (max-width: 480px) {
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar-brand,
+    .site-main .service-area,
     .site-main .brand-area,
-    .site-main .services-area .services-title,
-    .site-main .about-area{
-        padding: 3% 4%;
+    .site-main .experience-area,
+    .site-main .about-area
+     {
+        padding: 2% !important;
+        margin: 0 !important;
     }
 
+    .about-area .paragraph {
+        padding-bottom: 0 !important;
+    }
 
+    .site-main .about-area .about-title h2 > span {
+        font-size: 31px;
+        line-height: 34px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+
+    .site-main .brand-area .experience-area .years-area {
+        background: url(../img/client-info-bg.png) no-repeat 2px 20px;
+        padding-left: 13%;
+        width: 100%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        width: 127%;
+    }
+
+    .site-main .brand-area .experience-area .call-area {
+        padding-left: 15%;
+    }
+
+    .site-main .project-area .button-group button {
+        font: normal 500 18px/40px var(--roboto);
+    }
 }
