@@ -65,6 +65,10 @@
         margin: 0;
     }
 
+    .site-banner .button {
+        margin-right: 10px !important;
+    }
+
     /* about */
 
     .about-area .paragraph {
