@@ -8,6 +8,10 @@ p.para {
     font: normal 500 16px/25px var(--roboto);
 }
 
+.font-roboto {
+    font-family: var(--roboto);
+}
+
 /* buttons */
 .button {
     padding: .8rem 2.2rem;
