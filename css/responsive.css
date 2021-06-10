@@ -83,6 +83,13 @@
         padding-left: 15%;
     }
 
+    /* services */
+    .site-main > .services-area .services {
+        padding: 0 !important;
+        margin: 1rem .5rem;
+        width: 100%;
+    }
+
     /* projects */
 
     .site-main .project-area .button-group button {
