@@ -1,5 +1,6 @@
 @import url(fonts.css);
 @import url(partials/_variables.css);
+@import url(partials/_global.css);
 
 /* start navigation */
 
@@ -37,7 +38,7 @@
 /* start banner */
 
 .site-main .site-banner {
-    background: url(../img/banner-background.png) no-repeat 0% 50%;
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -67,5 +68,7 @@
     padding-top: 7rem 0;
     width: 90rem;
 }
+
+
 
 /* end banner */
