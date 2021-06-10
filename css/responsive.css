@@ -1,5 +1,16 @@
 /* tablet */
 @media only screen and (max-width: 768px){
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar-brand,
+    .site-main .services-area,
+    .site-main .brand-area,
+    .site-main .experience-area,
+    .site-main .about-area
+     {
+        padding: 2%;
+        margin: 0;
+    }
+    
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
@@ -35,14 +46,18 @@
 /* phone */
 @media only screen and (max-width: 480px) {
     .header-area .main-menu .navbar,
-    .header-area .main-menu .navbar-brand,
+    .header-area .main-menu .navbar-brand{
+        padding-top: 2%;
+        margin: 0;
+    }
+
     .site-main .services-area,
     .site-main .brand-area,
     .site-main .experience-area,
     .site-main .about-area
      {
-        padding: 2% !important;
-        margin: 0 !important;
+        padding-top: 100px;
+        margin: 0;
     }
 
     /* banner */
@@ -84,27 +99,36 @@
 
     /* brands */
 
+    .site-main .brand-area .experience-area {
+        padding-left: 0;
+    }
+
     .site-main .brand-area .experience-area .years-area {
-        background: url(../img/client-info-bg.png) no-repeat 0 20px;
+        background: url(../img/client-info-bg.png) no-repeat 0 15px;
         padding-left: 13%;
         width: 100%;
     }
 
     .site-main .brand-area .experience-area .bg-panel {
-        width: 105%;
+        width: 100%;
         height: 225px;
+        margin-top: 87px;
     }
 
     .site-main .brand-area .experience-area .call-area {
-        padding-left: 15%;
+        padding-left: 0%;
+    }
+
+    .site-main .brand-area .first-row .col-lg-4 > .single-brand {
+        width: 100px;
+        height: 100px;
     }
 
     /* services */
-    
 
     .site-main > .services-area .services {
         padding: 0 !important;
-        margin: 1rem .5rem;
+        margin: 1rem 0;
         width: 100%;
     }
 
