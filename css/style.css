@@ -109,7 +109,7 @@
     width: 180px;
     height: 100px;
     cursor: pointer;
-    transition: transform .4s ease;
+    transition: all .4s ease;
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
@@ -147,7 +147,7 @@
     position: absolute;
     left: -190px; 
     top: 0;
-    background:#e0292913;
+    background:#e029290a;
     width: 400px;
     height: 400px;
     margin-left: 340px;
@@ -169,3 +169,31 @@
 }
 
 /* end brand */
+
+/* start services */
+
+.site-main .services-area {
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .service-title {
+    padding: 0 14rem;
+}
+
+.site-main .services-area .service-title h1 {
+    font-size: 35px;
+}
+
+.site-main > .services-area .services {
+    background: rgb(244, 251, 253);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* end services */
