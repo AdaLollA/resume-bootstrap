@@ -135,11 +135,11 @@
 
 
 .site-main .brand-area .experience-area .years-area {
-    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
-    padding: 2rem 0;
+    background: url(../img/client-info-bg.png) no-repeat 82px 20px;
+    padding: 4rem 0;
     width: 40rem;
     height: 18rem;
-    padding-left: 8rem;
+    padding-left: 7.5rem;
     position: relative;
 }
 
@@ -162,10 +162,12 @@
 
 .site-main .brand-area .experience-area .years-area h2 > span {
     font: normal 600 22px/30px var(--roboto);
+    padding-left: 20px;
 }
 
 .site-main .brand-area .experience-area .call-area {
     padding-left: 10rem;
+    margin-top: -32px;
 }
 
 /* end brand */
