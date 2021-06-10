@@ -45,6 +45,18 @@
         margin: 0 !important;
     }
 
+    /* banner */
+
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+
+    .site-main .site-banner .site-title * {
+        margin: 0;
+    }
+
+    /* about */
+
     .about-area .paragraph {
         padding-bottom: 0 !important;
     }
@@ -55,9 +67,7 @@
         letter-spacing: 10px;
     }
 
-    .site-main .site-banner .site-title h1 {
-        font-size: 41px;
-    }
+    /* brands */
 
     .site-main .brand-area .experience-area .years-area {
         background: url(../img/client-info-bg.png) no-repeat 2px 20px;
@@ -73,7 +83,13 @@
         padding-left: 15%;
     }
 
+    /* projects */
+
     .site-main .project-area .button-group button {
         font: normal 500 18px/40px var(--roboto);
+    }
+    
+    .site-main .project-area .grid .our-project img {
+        width: 100%;
     }
 }
