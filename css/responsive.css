@@ -36,7 +36,7 @@
 @media only screen and (max-width: 480px) {
     .header-area .main-menu .navbar,
     .header-area .main-menu .navbar-brand,
-    .site-main .service-area,
+    .site-main .services-area,
     .site-main .brand-area,
     .site-main .experience-area,
     .site-main .about-area
@@ -70,13 +70,14 @@
     /* brands */
 
     .site-main .brand-area .experience-area .years-area {
-        background: url(../img/client-info-bg.png) no-repeat 2px 20px;
+        background: url(../img/client-info-bg.png) no-repeat 0 20px;
         padding-left: 13%;
         width: 100%;
     }
 
     .site-main .brand-area .experience-area .bg-panel {
-        width: 127%;
+        width: 105%;
+        height: 225px;
     }
 
     .site-main .brand-area .experience-area .call-area {
@@ -84,6 +85,8 @@
     }
 
     /* services */
+    
+
     .site-main > .services-area .services {
         padding: 0 !important;
         margin: 1rem .5rem;
