@@ -37,9 +37,11 @@
 
 /* start banner */
 
+/* 
 .site-main .site-banner {
     background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-}
+} 
+*/
 
 .site-main .site-banner .site-title h3 {
     padding-top: 35%;
@@ -134,6 +136,7 @@
 }
 
 .site-main .brand-area .experience-area .years-area {
+    z-index: -1;
     background: url(../img/client-info-bg.png) no-repeat 82px 20px;
     padding: 4rem 0;
     width: 40rem;
